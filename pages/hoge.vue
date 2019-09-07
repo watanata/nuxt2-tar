@@ -11,6 +11,7 @@ export default {
     // if(process.server) {
       // context.res.setHeader("X-XSS-Protection","0")
     // }
+    console.log(context.query)
     return { sid: context.query.sid };
   }
 };
